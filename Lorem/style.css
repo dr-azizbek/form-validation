@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+    text-align: center;
+}
+.text-style{
+    background-color: rgb(83, 79, 79);
+    border: 2px solid #000;
+    font-size: 20px;
+    box-shadow: 1px 1px 10px 5px rgb(149, 146, 146);
+}
+
+input{
+    background-color: #333;
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    margin: 50px;
+    box-shadow: 1px 1px 10px 5px rgb(149, 146, 146);
+}
+
+#result{
+    color: #000;
+    font-size: 40px;
+    box-shadow: 1px 1px 10px 5px rgb(83, 74, 74);
+}
