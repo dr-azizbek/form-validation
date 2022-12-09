@@ -9,6 +9,8 @@ body{
     text-align: center;
 }
 .text-style{
+    margin: 0 auto;
+    width: 80%;
     background-color: rgb(83, 79, 79);
     border: 2px solid #000;
     font-size: 20px;

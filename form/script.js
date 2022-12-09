@@ -5,12 +5,12 @@ btn.addEventListener('click', function (e) {
     let frstname = document.getElementById('firstname').value
     let lastname = document.getElementById('lastname').value
     let email = document.getElementById('email').value
-    let pasword = document.getElementById('pasword').value;
+    let password = document.getElementById('password').value;
     let errors = document.querySelector('.error')
     let correct = document.querySelector(".correct")
 
 
-    if (frstname === "" || lastname === "" || email === "" || pasword === "") {
+    if (frstname === "" || lastname === "" || email === "" || password === "") {
         errors.innerHTML = ("Xatolik bor, ma'lumotlarni to'g'iri kiriting.")
     }
     else {
