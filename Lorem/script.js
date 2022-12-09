@@ -20,8 +20,8 @@ let search = document.getElementById('search');
 let result = document.getElementById('result');
 
 search.addEventListener('input', ()=> {
-      let natija = text.innerText.includes(search.value);
-      if (natija === true){
+      let results = text.innerText.includes(search.value);
+      if (results === true){
             search.classList.add('bor');
             result.innerHTML = "Ushbu so'z matnda mavjud.";
       }
